@@ -22,8 +22,8 @@ import (
 
 	"cloud.google.com/go/internal/testutil"
 	kms "cloud.google.com/go/kms/apiv1"
+	"cloud.google.com/go/kms/apiv1/kmspb"
 	"google.golang.org/api/iterator"
-	kmspb "google.golang.org/genproto/googleapis/cloud/kms/v1"
 )
 
 func TestIntegration(t *testing.T) {

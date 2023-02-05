@@ -19,9 +19,9 @@ package talent_test
 import (
 	"context"
 
+	"cloud.google.com/go/longrunning/autogen/longrunningpb"
 	talent "cloud.google.com/go/talent/apiv4beta1"
 	talentpb "cloud.google.com/go/talent/apiv4beta1/talentpb"
-	longrunningpb "google.golang.org/genproto/googleapis/longrunning"
 )
 
 func ExampleNewCompletionClient() {

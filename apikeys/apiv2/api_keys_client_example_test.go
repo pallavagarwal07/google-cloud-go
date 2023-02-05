@@ -20,9 +20,9 @@ import (
 	"context"
 
 	apikeys "cloud.google.com/go/apikeys/apiv2"
+	"cloud.google.com/go/longrunning/autogen/longrunningpb"
 	"google.golang.org/api/iterator"
 	apikeyspb "google.golang.org/genproto/googleapis/api/apikeys/v2"
-	longrunningpb "google.golang.org/genproto/googleapis/longrunning"
 )
 
 func ExampleNewClient() {

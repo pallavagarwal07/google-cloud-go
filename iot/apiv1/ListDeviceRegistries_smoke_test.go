@@ -24,9 +24,9 @@ import (
 	"time"
 
 	"cloud.google.com/go/internal/testutil"
+	"cloud.google.com/go/iot/apiv1/iotpb"
 	"google.golang.org/api/iterator"
 	"google.golang.org/api/option"
-	iotpb "google.golang.org/genproto/googleapis/cloud/iot/v1"
 )
 
 var _ = fmt.Sprintf

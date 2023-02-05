@@ -21,9 +21,9 @@ import (
 
 	edgecontainer "cloud.google.com/go/edgecontainer/apiv1"
 	edgecontainerpb "cloud.google.com/go/edgecontainer/apiv1/edgecontainerpb"
+	"cloud.google.com/go/longrunning/autogen/longrunningpb"
 	"google.golang.org/api/iterator"
 	locationpb "google.golang.org/genproto/googleapis/cloud/location"
-	longrunningpb "google.golang.org/genproto/googleapis/longrunning"
 )
 
 func ExampleNewClient() {

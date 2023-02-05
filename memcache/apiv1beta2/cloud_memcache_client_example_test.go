@@ -19,11 +19,11 @@ package memcache_test
 import (
 	"context"
 
+	"cloud.google.com/go/longrunning/autogen/longrunningpb"
 	memcache "cloud.google.com/go/memcache/apiv1beta2"
 	memcachepb "cloud.google.com/go/memcache/apiv1beta2/memcachepb"
 	"google.golang.org/api/iterator"
 	locationpb "google.golang.org/genproto/googleapis/cloud/location"
-	longrunningpb "google.golang.org/genproto/googleapis/longrunning"
 )
 
 func ExampleNewCloudMemcacheClient() {

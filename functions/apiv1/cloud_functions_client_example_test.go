@@ -21,8 +21,8 @@ import (
 
 	functions "cloud.google.com/go/functions/apiv1"
 	functionspb "cloud.google.com/go/functions/apiv1/functionspb"
+	"cloud.google.com/go/iam/apiv1/iampb"
 	"google.golang.org/api/iterator"
-	iampb "google.golang.org/genproto/googleapis/iam/v1"
 )
 
 func ExampleNewCloudFunctionsClient() {

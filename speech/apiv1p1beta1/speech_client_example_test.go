@@ -20,10 +20,10 @@ import (
 	"context"
 	"io"
 
+	"cloud.google.com/go/longrunning/autogen/longrunningpb"
 	speech "cloud.google.com/go/speech/apiv1p1beta1"
 	speechpb "cloud.google.com/go/speech/apiv1p1beta1/speechpb"
 	"google.golang.org/api/iterator"
-	longrunningpb "google.golang.org/genproto/googleapis/longrunning"
 )
 
 func ExampleNewClient() {

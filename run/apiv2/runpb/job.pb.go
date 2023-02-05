@@ -25,10 +25,10 @@ import (
 	reflect "reflect"
 	sync "sync"
 
+	v1 "cloud.google.com/go/iam/apiv1/iampb"
+	longrunning "cloud.google.com/go/longrunning/autogen/longrunningpb"
 	api "google.golang.org/genproto/googleapis/api"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
-	v1 "google.golang.org/genproto/googleapis/iam/v1"
-	longrunning "google.golang.org/genproto/googleapis/longrunning"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"

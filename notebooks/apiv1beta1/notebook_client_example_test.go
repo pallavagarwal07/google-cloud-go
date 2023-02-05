@@ -19,12 +19,12 @@ package notebooks_test
 import (
 	"context"
 
+	"cloud.google.com/go/iam/apiv1/iampb"
+	"cloud.google.com/go/longrunning/autogen/longrunningpb"
 	notebooks "cloud.google.com/go/notebooks/apiv1beta1"
 	notebookspb "cloud.google.com/go/notebooks/apiv1beta1/notebookspb"
 	"google.golang.org/api/iterator"
 	locationpb "google.golang.org/genproto/googleapis/cloud/location"
-	iampb "google.golang.org/genproto/googleapis/iam/v1"
-	longrunningpb "google.golang.org/genproto/googleapis/longrunning"
 )
 
 func ExampleNewNotebookClient() {

@@ -20,9 +20,9 @@ import (
 	"context"
 
 	iam "cloud.google.com/go/iam/apiv2"
+	"cloud.google.com/go/longrunning/autogen/longrunningpb"
 	"google.golang.org/api/iterator"
 	iampb "google.golang.org/genproto/googleapis/iam/v2"
-	longrunningpb "google.golang.org/genproto/googleapis/longrunning"
 )
 
 func ExampleNewPoliciesClient() {

@@ -21,9 +21,9 @@ import (
 
 	documentai "cloud.google.com/go/documentai/apiv1"
 	documentaipb "cloud.google.com/go/documentai/apiv1/documentaipb"
+	"cloud.google.com/go/longrunning/autogen/longrunningpb"
 	"google.golang.org/api/iterator"
 	locationpb "google.golang.org/genproto/googleapis/cloud/location"
-	longrunningpb "google.golang.org/genproto/googleapis/longrunning"
 )
 
 func ExampleNewDocumentProcessorClient() {

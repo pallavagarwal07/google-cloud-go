@@ -19,12 +19,12 @@ package metastore_test
 import (
 	"context"
 
+	"cloud.google.com/go/iam/apiv1/iampb"
+	"cloud.google.com/go/longrunning/autogen/longrunningpb"
 	metastore "cloud.google.com/go/metastore/apiv1"
 	metastorepb "cloud.google.com/go/metastore/apiv1/metastorepb"
 	"google.golang.org/api/iterator"
 	locationpb "google.golang.org/genproto/googleapis/cloud/location"
-	iampb "google.golang.org/genproto/googleapis/iam/v1"
-	longrunningpb "google.golang.org/genproto/googleapis/longrunning"
 )
 
 func ExampleNewDataprocMetastoreFederationClient() {

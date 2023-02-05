@@ -21,9 +21,9 @@ import (
 
 	dataform "cloud.google.com/go/dataform/apiv1alpha2"
 	dataformpb "cloud.google.com/go/dataform/apiv1alpha2/dataformpb"
+	"cloud.google.com/go/iam/apiv1/iampb"
 	"google.golang.org/api/iterator"
 	locationpb "google.golang.org/genproto/googleapis/cloud/location"
-	iampb "google.golang.org/genproto/googleapis/iam/v1"
 )
 
 func ExampleNewClient() {

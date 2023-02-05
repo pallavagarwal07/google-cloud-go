@@ -19,10 +19,10 @@ package service_test
 import (
 	"context"
 
+	"cloud.google.com/go/longrunning/autogen/longrunningpb"
 	service "cloud.google.com/go/orchestration/airflow/service/apiv1"
 	servicepb "cloud.google.com/go/orchestration/airflow/service/apiv1/servicepb"
 	"google.golang.org/api/iterator"
-	longrunningpb "google.golang.org/genproto/googleapis/longrunning"
 )
 
 func ExampleNewImageVersionsClient() {

@@ -19,10 +19,10 @@ package pubsublite_test
 import (
 	"context"
 
+	"cloud.google.com/go/longrunning/autogen/longrunningpb"
 	pubsublite "cloud.google.com/go/pubsublite/apiv1"
 	pubsublitepb "cloud.google.com/go/pubsublite/apiv1/pubsublitepb"
 	"google.golang.org/api/iterator"
-	longrunningpb "google.golang.org/genproto/googleapis/longrunning"
 )
 
 func ExampleNewTopicStatsClient() {

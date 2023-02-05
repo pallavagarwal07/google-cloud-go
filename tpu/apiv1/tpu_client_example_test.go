@@ -19,11 +19,11 @@ package tpu_test
 import (
 	"context"
 
+	"cloud.google.com/go/longrunning/autogen/longrunningpb"
 	tpu "cloud.google.com/go/tpu/apiv1"
 	tpupb "cloud.google.com/go/tpu/apiv1/tpupb"
 	"google.golang.org/api/iterator"
 	locationpb "google.golang.org/genproto/googleapis/cloud/location"
-	longrunningpb "google.golang.org/genproto/googleapis/longrunning"
 )
 
 func ExampleNewClient() {

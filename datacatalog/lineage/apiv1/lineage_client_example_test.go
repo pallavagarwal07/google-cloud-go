@@ -21,8 +21,8 @@ import (
 
 	lineage "cloud.google.com/go/datacatalog/lineage/apiv1"
 	lineagepb "cloud.google.com/go/datacatalog/lineage/apiv1/lineagepb"
+	"cloud.google.com/go/longrunning/autogen/longrunningpb"
 	"google.golang.org/api/iterator"
-	longrunningpb "google.golang.org/genproto/googleapis/longrunning"
 )
 
 func ExampleNewClient() {

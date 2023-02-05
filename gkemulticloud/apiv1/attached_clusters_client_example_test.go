@@ -21,8 +21,8 @@ import (
 
 	gkemulticloud "cloud.google.com/go/gkemulticloud/apiv1"
 	gkemulticloudpb "cloud.google.com/go/gkemulticloud/apiv1/gkemulticloudpb"
+	"cloud.google.com/go/longrunning/autogen/longrunningpb"
 	"google.golang.org/api/iterator"
-	longrunningpb "google.golang.org/genproto/googleapis/longrunning"
 )
 
 func ExampleNewAttachedClustersClient() {

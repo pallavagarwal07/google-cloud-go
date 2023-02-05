@@ -19,10 +19,10 @@ package iot_test
 import (
 	"context"
 
+	"cloud.google.com/go/iam/apiv1/iampb"
 	iot "cloud.google.com/go/iot/apiv1"
 	iotpb "cloud.google.com/go/iot/apiv1/iotpb"
 	"google.golang.org/api/iterator"
-	iampb "google.golang.org/genproto/googleapis/iam/v1"
 )
 
 func ExampleNewDeviceManagerClient() {

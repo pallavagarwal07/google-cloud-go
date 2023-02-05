@@ -19,10 +19,10 @@ package securitycenter_test
 import (
 	"context"
 
+	"cloud.google.com/go/iam/apiv1/iampb"
 	securitycenter "cloud.google.com/go/securitycenter/apiv1p1beta1"
 	securitycenterpb "cloud.google.com/go/securitycenter/apiv1p1beta1/securitycenterpb"
 	"google.golang.org/api/iterator"
-	iampb "google.golang.org/genproto/googleapis/iam/v1"
 )
 
 func ExampleNewClient() {

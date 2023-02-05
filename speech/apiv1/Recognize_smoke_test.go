@@ -24,9 +24,9 @@ import (
 	"time"
 
 	"cloud.google.com/go/internal/testutil"
+	"cloud.google.com/go/speech/apiv1/speechpb"
 	"google.golang.org/api/iterator"
 	"google.golang.org/api/option"
-	speechpb "google.golang.org/genproto/googleapis/cloud/speech/v1"
 )
 
 var _ = fmt.Sprintf

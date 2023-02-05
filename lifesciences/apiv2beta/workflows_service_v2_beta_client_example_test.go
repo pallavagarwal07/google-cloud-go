@@ -21,9 +21,9 @@ import (
 
 	lifesciences "cloud.google.com/go/lifesciences/apiv2beta"
 	lifesciencespb "cloud.google.com/go/lifesciences/apiv2beta/lifesciencespb"
+	"cloud.google.com/go/longrunning/autogen/longrunningpb"
 	"google.golang.org/api/iterator"
 	locationpb "google.golang.org/genproto/googleapis/cloud/location"
-	longrunningpb "google.golang.org/genproto/googleapis/longrunning"
 )
 
 func ExampleNewWorkflowsServiceV2BetaClient() {

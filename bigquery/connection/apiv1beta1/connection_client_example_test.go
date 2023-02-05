@@ -21,7 +21,7 @@ import (
 
 	connection "cloud.google.com/go/bigquery/connection/apiv1beta1"
 	connectionpb "cloud.google.com/go/bigquery/connection/apiv1beta1/connectionpb"
-	iampb "google.golang.org/genproto/googleapis/iam/v1"
+	"cloud.google.com/go/iam/apiv1/iampb"
 )
 
 func ExampleNewClient() {

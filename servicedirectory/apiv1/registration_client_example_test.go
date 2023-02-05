@@ -19,10 +19,10 @@ package servicedirectory_test
 import (
 	"context"
 
+	"cloud.google.com/go/iam/apiv1/iampb"
 	servicedirectory "cloud.google.com/go/servicedirectory/apiv1"
 	servicedirectorypb "cloud.google.com/go/servicedirectory/apiv1/servicedirectorypb"
 	"google.golang.org/api/iterator"
-	iampb "google.golang.org/genproto/googleapis/iam/v1"
 )
 
 func ExampleNewRegistrationClient() {

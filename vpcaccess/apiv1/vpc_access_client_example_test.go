@@ -19,11 +19,11 @@ package vpcaccess_test
 import (
 	"context"
 
+	"cloud.google.com/go/longrunning/autogen/longrunningpb"
 	vpcaccess "cloud.google.com/go/vpcaccess/apiv1"
 	vpcaccesspb "cloud.google.com/go/vpcaccess/apiv1/vpcaccesspb"
 	"google.golang.org/api/iterator"
 	locationpb "google.golang.org/genproto/googleapis/cloud/location"
-	longrunningpb "google.golang.org/genproto/googleapis/longrunning"
 )
 
 func ExampleNewClient() {

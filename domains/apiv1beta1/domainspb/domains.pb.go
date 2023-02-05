@@ -25,8 +25,8 @@ import (
 	reflect "reflect"
 	sync "sync"
 
+	longrunning "cloud.google.com/go/longrunning/autogen/longrunningpb"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
-	longrunning "google.golang.org/genproto/googleapis/longrunning"
 	money "google.golang.org/genproto/googleapis/type/money"
 	postaladdress "google.golang.org/genproto/googleapis/type/postaladdress"
 	grpc "google.golang.org/grpc"
